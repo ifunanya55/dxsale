@@ -54,7 +54,7 @@
 								symbol: 'BNB',
 								decimals: 18
 							},
-							rpcUrls: ['https://bsc-dataseed.binance.org/'],
+							rpcUrls: ['https://rpc-mainnet.kcc.network'],
 							blockExplorerUrls: ['https://bscscan.com/']
 						}]
 					});
