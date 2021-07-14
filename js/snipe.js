@@ -43,7 +43,7 @@
 					disconnectAccount();
 				});
 				chainId = await web3.eth.getChainId();
-				if (chainId !== 56 && chainId !== 97 && chainId !== 321 && chainId !== 1337) {
+				if (chainId !== 56) {
 					window.ethereum.request({
 						method: 'wallet_addEthereumChain',
 						params: [{
